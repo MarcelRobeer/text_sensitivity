@@ -1,0 +1,15 @@
+[coverage:run]
+source = text_sensitivity
+omit =
+    */site-packages/*
+    */.eggs/*
+    setup.py
+    */test/*.py
+    docs
+
+[report]
+exclude_lines =
+    pragma: no cover
+    @abstract
+    raise NotImplementedError
+    pass

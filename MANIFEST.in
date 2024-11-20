@@ -1,0 +1,7 @@
+include requirements.txt
+include tox.ini
+include *.md
+exclude *.bat
+exclude .shortlicense
+recursive-include text_sensitivity/data/lists/ *.csv
+recursive-exclude text_sensitivity/test *.py
