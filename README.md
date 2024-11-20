@@ -69,7 +69,7 @@ RandomName(languages=['nl', 'ru'], sex=['male', 'female']).generate_list(n=10, a
 ```
 
 ## Installation
-See the [installation](docs/INSTALLATION.md) instructions for an extended installation guide.
+See the [installation](INSTALLATION.md) instructions for an extended installation guide.
 
 | Method | Instructions |
 |--------|--------------|

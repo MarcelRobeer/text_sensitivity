@@ -142,7 +142,8 @@ class CityByPopulationMixin(Readable):
                 response = requests.get('https://public.opendatasoft.com/api/records/1.0/search/' +
                                         '?dataset=geonames-all-cities-with-a-population-1000&q=' +
                                         f'&lang={str.lower(country_code)}&fields=name,population&sort=population' +
-                                        f'&refine.country_code={str.upper(country_code)}&rows={len(cities)}')
+                                        f'&refine.country_code={str.upper(country_code)}&rows={len(cities)}',
+                                        timeout=19)
                 if response.status_code != 200:
                     return cities
                 res = [(city['fields']['name'], float(city['fields']['population']))
