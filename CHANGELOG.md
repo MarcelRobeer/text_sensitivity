@@ -5,8 +5,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [0.3.4] - 2024-11-20
 ### Changed
 - Moved to GitHub
+
+## Fixed
+- Various security fixes
 
 ## [0.3.3] - 2023-01-28
 ### Added
@@ -180,6 +185,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - setup.py
 
 [Unreleased]: https://github.com/MarcelRobeer/text_sensitivity
+[0.3.4]: https://pypi.org/project/text-sensitivity/0.3.4/
 [0.3.3]: https://pypi.org/project/text-sensitivity/0.3.3/
 [0.3.2]: https://pypi.org/project/text-sensitivity/0.3.2/
 [0.3.1]: https://pypi.org/project/text-sensitivity/0.3.1/

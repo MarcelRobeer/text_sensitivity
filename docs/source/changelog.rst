@@ -10,6 +10,27 @@ and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0
 `Unreleased <https://github.com/MarcelRobeer/text_sensitivity>`_
 -------------------------------------------------------------------------
 
+
+`0.3.4 <https://pypi.org/project/text-sensitivity/0.3.4/>`_ - 2024-11-20
+----------------------------------------------------------------------------
+
+Changed
+^^^^^^^
+
+
+* Moved to GitHub
+
+
+Fixed
+^^^^^
+
+
+* Various security fixes
+
+
+`0.3.3 <https://pypi.org/project/text-sensitivity/0.3.3/>`_ - 2023-01-28
+----------------------------------------------------------------------------
+
 Added
 ^^^^^
 
@@ -21,6 +42,9 @@ Changed
 
 
 * Moved documentation to ``sphinx``
+* Added generation of unique attributes when using ``from_pattern``
+* Only show outer ``tqdm`` in ``input_space_robustness``
+
 
 Fixed
 ^^^^^
