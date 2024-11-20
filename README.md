@@ -13,6 +13,7 @@ Sensitivity testing (fairness, robustness & safety) for text machine learning mo
 [![License](https://img.shields.io/pypi/l/text_sensitivity)](https://www.gnu.org/licenses/lgpl-3.0.en.html)
 [![Documentation Status](https://readthedocs.org/projects/text-sensitivity/badge/?version=latest)](https://text-sensitivity.readthedocs.io/en/latest/?badge=latest)
 [![Code style: black](https://img.shields.io/badge/code%20style-flake8-aa0000)](https://github.com/PyCQA/flake8)
+[![DOI](https://zenodo.org/badge/891502381.svg)](https://doi.org/10.5281/zenodo.14192940)
 
 ---
 

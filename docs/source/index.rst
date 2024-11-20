@@ -42,6 +42,10 @@ Sensitivity testing (fairness & robustness) for text machine learning models
    :alt: Code style: black
 
 
+.. image:: https://zenodo.org/badge/891502381.svg
+  :target: https://doi.org/10.5281/zenodo.14192940
+
+
 ----
 
 .. note::
