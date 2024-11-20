@@ -1,4 +1,4 @@
-.. image:: https://github.com/MarcelRobeer/text_sensitivity/raw/main/img/ts-logo_large.png
+.. image:: https://raw.githubusercontent.com/MarcelRobeer/text_sensitivity/master/img/ts-logo_large.png
     :alt: Text Sensitivity logo
     :align: center
 

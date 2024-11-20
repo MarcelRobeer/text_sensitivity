@@ -1,5 +1,5 @@
 *<p align="center">
-  <img src="https://github.com/MarcelRobeer/text_sensitivity/raw/main/img/ts-logo_large.png" alt="Text Sensitivity logo" width="70%">*
+  <img src="https://raw.githubusercontent.com/MarcelRobeer/text_sensitivity/master/img/ts-logo_large.png" alt="Text Sensitivity logo" width="70%">*
 </p>
 
 **<h3 align="center">
@@ -8,7 +8,7 @@ Sensitivity testing (fairness & robustness) for text machine learning models**
 
 [![PyPI](https://img.shields.io/pypi/v/text_sensitivity)](https://pypi.org/project/text-sensitivity/)
 [![Downloads](https://pepy.tech/badge/text-sensitivity)](https://pepy.tech/project/text-sensitivity)
-[![Python_version](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue)](https://pypi.org/project/text-sensitivity/)
+[![Python_version](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-blue)](https://pypi.org/project/text-sensitivity/)
 [![Lint, Security & Tests](https://github.com/MarcelRobeer/text_sensitivity/actions/workflows/check.yml/badge.svg)](https://github.com/MarcelRobeer/text_sensitivity/actions/workflows/check.yml)
 [![License](https://img.shields.io/pypi/l/text_sensitivity)](https://www.gnu.org/licenses/lgpl-3.0.en.html)
 [![Documentation Status](https://readthedocs.org/projects/text-sensitivity/badge/?version=latest)](https://text-sensitivity.readthedocs.io/en/latest/?badge=latest)

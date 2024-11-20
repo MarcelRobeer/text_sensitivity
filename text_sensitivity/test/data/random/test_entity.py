@@ -89,8 +89,15 @@ def test_entity_sentence(generator):
 @pytest.mark.parametrize('generator', TEST_GENERATORS_TEXT)
 @pytest.mark.parametrize('case', ['upper', 'lower', 'title', 'sentence'])
 def test_entity_generator_original(generator, case):
-    assert all(entity1 == entity2 for entity1, entity2 in zip(generator(seed=0).generate_list(n=10),
-                                                              eval(f'generator(seed=0).{case}().original().generate_list(n=10)')))
+    if case == 'upper':
+        gen = generator(seed=0).upper().original().generate_list(n=10)
+    elif case == 'lower':
+        gen = generator(seed=0).lower().original().generate_list(n=10)
+    elif case == 'title':
+        gen = generator(seed=0).title().original().generate_list(n=10)
+    else:
+        gen = generator(seed=0).sentence().original().generate_list(n=10)
+    assert all(entity1 == entity2 for entity1, entity2 in zip(generator(seed=0).generate_list(n=10), gen))
 
 
 def test_entity_generator_email():
