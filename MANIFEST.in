@@ -3,5 +3,6 @@ include tox.ini
 include *.md
 exclude *.bat
 exclude .shortlicense
+exclude example_usage.py
 recursive-include text_sensitivity/data/lists/ *.csv
 recursive-exclude text_sensitivity/test *.py
