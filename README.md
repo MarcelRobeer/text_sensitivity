@@ -3,7 +3,7 @@
 </p>
 
 **<h3 align="center">
-Sensitivity testing (fairness & robustness) for text machine learning models**
+Sensitivity testing (fairness, robustness & safety) for text machine learning models**
 </h3>
 
 [![PyPI](https://img.shields.io/pypi/v/text_sensitivity)](https://pypi.org/project/text-sensitivity/)

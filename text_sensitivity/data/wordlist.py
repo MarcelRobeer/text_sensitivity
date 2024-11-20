@@ -178,8 +178,8 @@ class WordList(Readable, SeedMixin, CaseMixin):
         Returns:
             WordList: WordList class.
         """
-        return cls(pd.read_pickle(filename, *args, **kwargs), main_column=main_column,
-                                  attribute_column=attribute_column, seed=seed)
+        return cls(pd.read_pickle(filename, *args, **kwargs), main_column=main_column,  # nosec
+                                  attribute_column=attribute_column, seed=seed)  # nosec
 
     @classmethod
     def from_file(cls,
