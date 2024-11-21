@@ -94,6 +94,7 @@ See [CHANGELOG.md](CHANGELOG.md) for a full overview of the changes for each ver
   title = {Python package text\_sensitivity},
   author = {Marcel Robeer},
   howpublished = {\url{https://github.com/MarcelRobeer/text_sensitivity}},
+  doi = {10.5281/zenodo.14192941},
   year = {2021}
 }
 ```

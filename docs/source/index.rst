@@ -3,7 +3,7 @@
     :align: center
 
 
-Sensitivity testing (fairness & robustness) for text machine learning models
+Sensitivity testing (fairness, robustness & safety) for text machine learning models
 ----------------------------------------------------------------------------
 
 
@@ -139,6 +139,7 @@ Citation
      title = {Python package text\_sensitivity},
      author = {Marcel Robeer},
      howpublished = {\url{https://github.com/MarcelRobeer/text_sensitivity}},
+     doi = {10.5281/zenodo.14192941},
      year = {2021}
    }
 
