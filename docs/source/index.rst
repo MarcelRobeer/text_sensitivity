@@ -4,7 +4,7 @@
 
 
 Sensitivity testing (fairness, robustness & safety) for text machine learning models
-----------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 
 
 .. image:: https://img.shields.io/pypi/v/text_sensitivity
@@ -43,10 +43,11 @@ Sensitivity testing (fairness, robustness & safety) for text machine learning mo
 
 
 .. image:: https://zenodo.org/badge/891502381.svg
-  :target: https://doi.org/10.5281/zenodo.14192940
+   :target: https://doi.org/10.5281/zenodo.14192940
+   :alt: https://doi.org/10.5281/zenodo.14192940
 
 
-----
+------------
 
 .. note::
 
@@ -105,6 +106,7 @@ Quick tour
 
    # Generate random Dutch ('nl') and Russian ('ru') names, both 'male' and 'female' (+ return attributes)
    RandomName(languages=['nl', 'ru'], sex=['male', 'female']).generate_list(n=10, attributes=True)
+
 
 Using text_sensitivity
 -------------------------
