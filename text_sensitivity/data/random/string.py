@@ -154,7 +154,7 @@ class RandomEmojis(RandomString):
         Raises:
             ValueError: At least one of `base`, `dingbats`, `flags` should be True.
         """
-        if not(base or dingbats or flags):
+        if not (base or dingbats or flags):
             raise ValueError('At least one of base, dingbats, flags should be True.')
         emojis = []
         if base:
