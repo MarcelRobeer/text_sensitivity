@@ -55,9 +55,20 @@ def apply_perturbation(dataset: Union[InstanceProvider, TextEnvironment],
             new_data.extend(instances) if isinstance(instances, list) else new_data.append(instances)
             attributes.extend(labels) if isinstance(labels, list) else attributes.append(labels)
 
-    instanceprovider = TextInstanceProvider(new_data)
+    instanceprovider = TextInstanceProvider.from_data(new_data)
     instanceprovider.add_range(*dataset.get_all())
     labelprovider = MemoryLabelProvider.from_tuples(attributes)
+
+    # TODO: better fix (currently: since 0 evaluates to false it is replaced by a extreme ID, so replace it back to 0)
+    most_extreme = instanceprovider.key_list[0]
+    for num in instanceprovider.key_list:
+        if abs(num) > abs(most_extreme):
+            most_extreme = num
+    if abs(most_extreme) > len(instanceprovider):
+        extreme_instance = instanceprovider[most_extreme]
+        instanceprovider.__delitem__(extreme_instance.identifier)
+        extreme_instance.identifier = 0
+        instanceprovider.add(extreme_instance)
 
     return instanceprovider, labelprovider
 

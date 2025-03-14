@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.5] - 2025-03-14
+### Fixed
+- Bugfix where a random extreme ID replaced `0` (probably because `0` evaluates to `False`)
+
 ## [0.3.4] - 2024-11-20
 ### Changed
 - Moved to GitHub
