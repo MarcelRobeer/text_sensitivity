@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.6] - 2025-08-08
+### Fixed
+- Avoid `TypeError` when using `compare_metric()` 
+
 ## [0.3.5] - 2025-03-14
 ### Fixed
 - Bugfix where a random extreme ID replaced `0` (probably because `0` evaluates to `False`)
@@ -189,6 +193,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - setup.py
 
 [Unreleased]: https://github.com/MarcelRobeer/text_sensitivity
+[0.3.6]: https://pypi.org/project/text-sensitivity/0.3.6/
+[0.3.5]: https://pypi.org/project/text-sensitivity/0.3.5/
 [0.3.4]: https://pypi.org/project/text-sensitivity/0.3.4/
 [0.3.3]: https://pypi.org/project/text-sensitivity/0.3.3/
 [0.3.2]: https://pypi.org/project/text-sensitivity/0.3.2/
